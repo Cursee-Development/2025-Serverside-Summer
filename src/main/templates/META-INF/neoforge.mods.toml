@@ -11,10 +11,11 @@ license="${mod_license}"
     credits="Thanks to the developers of MultiLoader-Template, Forgix, Botania, Bookshelf, and NeoForge." #optional
     authors="${mod_authors}" #optional
     description='''${mod_description}'''
-    #[[mixins]]
-    #config="${mod_id}.mixins.json"
-    #[[accessTransformers]]
-    #file="META-INF/accesstransformer.cfg"
+
+#[[mixins]]
+#   config="${mod_id}.mixins.json"
+#[[accessTransformers]]
+#   file="META-INF/accesstransformer.cfg"
 
 [[dependencies.${mod_id}]]
     modId="neoforge"
